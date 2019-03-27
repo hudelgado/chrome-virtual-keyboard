@@ -568,8 +568,8 @@ function vt_evt_textarea_click() {
 	return vk_evt_input_event(this, false, "textarea");
 }
 
-function vk_evt_input_mousedown(ent) {
-	const evt = virtualKeyboardChromeExtensionTouchEvents == "true" ? ent.touches[0] : window.event;
+function vk_evt_input_mousedown(e) {
+	const evt = virtualKeyboardChromeExtensionTouchEvents == "true" ? e.touches[0] : e;
 	virtualKeyboardChromeExtensionClickedYPos = evt.clientY;
 	virtualKeyboardChromeExtensionClickedXPos = evt.clientX;
 }
