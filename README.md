@@ -1,5 +1,7 @@
 Virtual Keyboard for Google Chrome&trade;
 =========================================
+##### forked from [xontab/chrome-virtual-keyboard](https://github.com/xontab/chrome-virtual-keyboard)
+
 
 ## About
 Virtual Keyboard for Google Chrome&trade; will popup automatically when the user clicks on an input field such as textboxes and textareas. Futhermore, the keyboard will disappear automatically once no longer needed.
