@@ -9,7 +9,7 @@ window.addEventListener('load', function() {
 	}
 	document.getElementById("toggleOff").onclick = function() {
 		chrome.extension.sendRequest({method: "toogleKeyboardOff"}, function(response) {
-			window.close();	
+			window.close();
 		});
 	}
 	document.getElementById("toggleDemand").onclick = function() {
